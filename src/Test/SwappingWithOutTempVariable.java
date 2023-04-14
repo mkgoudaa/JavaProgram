@@ -14,7 +14,7 @@ public class SwappingWithOutTempVariable {
 		num1 = num1 + num2;
 		
 		num2 = num1 - num2;
-		num1 = num1 - num2;
+		num1 = num1 - num2; 
 		
 		System.out.println("After swapping the 1st no" + num1);
 		System.out.println("After swapping the 2nd no" + num2);
