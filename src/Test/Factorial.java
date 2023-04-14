@@ -16,6 +16,10 @@ public class Factorial {
 			value--;
 		}
 		System.out.println(fact);
+		// other way
+		for (int i = 1; i <= value; i++) {
+			fact = fact * i;
+		}
+		System.out.println(fact);
 	}
-
 }
