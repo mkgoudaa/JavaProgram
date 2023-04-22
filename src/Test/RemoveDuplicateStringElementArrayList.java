@@ -14,10 +14,10 @@ public class RemoveDuplicateStringElementArrayList {
 	        list.add("Banana");  
 	        list.add("Mango");  
 	        list.add("Apple");  
-	        System.out.println(list.toString());  
+	        System.out.println(list);  
 	        Set<String> set = new LinkedHashSet<String>(list);  
 	        System.out.println(set); 
-
+	     
 	}
 
 }

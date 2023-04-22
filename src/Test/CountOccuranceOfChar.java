@@ -5,7 +5,7 @@ public class CountOccuranceOfChar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str = "countoccuranceOfchar";
-		Map<Character, Integer> mapCount = new HashMap<Character, Integer>();
+		Map<Character, Integer> mapCount = new HashMap<>();
 		for (char c : str.toCharArray()) {
 			if (mapCount.containsKey(c)) {
 				mapCount.put(c, mapCount.get(c) + 1);

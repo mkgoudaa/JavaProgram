@@ -9,7 +9,7 @@ public class DuplicateWordInASentense {
 		// TODO Auto-generated method stub
 		String str = "I love India I live India";
 		Map<String, Integer> mapCount = new HashMap<>();
-		String[] words = str.split(" ");
+		String words[] = str.split(" ");
 		for (String word : words) {
 			if (mapCount.containsKey(word)) {
 				mapCount.put(word, mapCount.get(word) + 1);
